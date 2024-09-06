@@ -22,7 +22,6 @@ function Contact() {
       <div className="Container">
         <Fade direction="left" triggerOnce={true}>
          <div className="SectionTitle">Get In Touch
-          <a href="https://www.koalastothemax.com/">*</a>
         </div> 
         </Fade>
         
