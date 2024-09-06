@@ -51,12 +51,12 @@ function About() {
 
             <Technologies>
               {stackList.map((stack, index) => (
-                <Zoom triggerOnce={true} key={index}>
+                <Fade cascade damping={0.1} triggerOnce={true} key={index}>
                   <Tech key={index} className="tech">
                     <TechImg src={stack.img} alt={stack.name} />
                     <TechName>{stack.name}</TechName>
                   </Tech>
-                </Zoom>
+                </Fade>
               ))}
             </Technologies>
           </div>
