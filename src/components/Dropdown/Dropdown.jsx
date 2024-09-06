@@ -66,7 +66,7 @@ export const NavBtn = styled.div`
 function Dropdown({ isOpen, toggle }) {
   return (
     <SiderBar isOpen={isOpen} onClick={toggle}>
-      <CloseIcon onClick={toggle} style={{color: '#012c3d'}}/>
+      <CloseIcon onClick={toggle} style={{color: '#c0dbeb'}}/>
       <NavMenu>
         <NavLink
           onClick={toggle}
