@@ -72,7 +72,7 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item text"
           to="projects"
-          style={{color: '#012c3d'}}
+          style={{color: '#c0dbeb'}}
         >
           Projects
         </NavLink>
@@ -80,7 +80,7 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="about"
-          style={{color: '#012c3d'}}
+          style={{color: '#c0dbeb'}}
         >
           About
         </NavLink>
@@ -88,7 +88,7 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="education"
-          style={{color: '#012c3d'}}
+          style={{color: '#c0dbeb'}}
         >
           Expertise
         </NavLink>
@@ -96,7 +96,7 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="contact"
-          style={{color: '#012c3d'}}
+          style={{color: '#c0dbeb'}}
         >
           Contact
         </NavLink>
@@ -107,9 +107,9 @@ function Dropdown({ isOpen, toggle }) {
           href="/JithinKP.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          style={{color: '#012c3d'}}
+          style={{color: '#c0dbeb'}}
         >
-          Resume < HiDownload color="#012c3d"/>
+          Resume < HiDownload color="#c0dbeb"/>
         </a>
       </NavBtn>
     </SiderBar>

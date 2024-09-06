@@ -38,7 +38,7 @@ export const Logo = styled('div')`
 
 export const Bars = styled(FiSlack)`
   display: none;
-  color: #012c3d;
+  color: #c0dbeb;
   font-size: 1.8rem;
   cursor: pointer;
   @media screen and (max-width: 768px) {
