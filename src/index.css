@@ -1,0 +1,171 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: #343a3f;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+main {
+  background-size: cover;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  transition: 0.2s ease-in;
+
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  outline: none;
+}
+
+.btn-shadow{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn-shadow:hover{
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.PrimaryBtn {
+  padding: 12px 20px;
+  border: none;
+  background: #012c3d;
+  color: #b2c0d4;
+}
+
+.PrimaryBtn:hover{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.SecondaryBtn{
+  padding: 10px 18px;
+  border: 2px solid #a5c6d4;
+  color: #010606;
+  margin-right: 1rem;
+}
+
+.PrimaryBtn:hover {
+  background: #052836;
+}
+
+.SecondaryBtn:hover {
+  background: #95adb8;
+  color: #000
+}
+
+.Container {
+  max-width: 1000px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.BigCard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #37404a;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.AboutBio{
+  text-align: justify;
+  max-width: 750px;
+  margin: 0 auto;
+  color: #b0c6d3;
+  line-height: 1.6;
+}
+
+.tagline2 {
+  text-align: left;
+  max-width: 650px;
+  margin: 0;
+  color: #b0c6d3;
+  line-height: 1.6;
+}
+
+.tagline2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.SectionTitle {
+  font-size: 28px;
+  color: #b7cfdd;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+.ProjectWrapper {
+  margin-top: -1rem;
+}
+
+
+
+/* ------------------------------------ Media for Container */
+@media (max-width: 1000px) {
+  .Container {
+    padding: 0;
+  }
+}

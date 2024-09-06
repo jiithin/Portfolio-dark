@@ -1,0 +1,54 @@
+{
+    img: "/burger.png",
+    title: "Burger Store Website",
+    description:
+      "A demo website for buying burgers from a store online.",
+    tech_stack: ["Bootstrap", "CSS", "HTML"],
+    github_url: "https://github.com/jiithin",
+    demo_url: "https://burger-gumdrop-task.netlify.app/",
+  },
+  {
+    img: "/messi.png",
+    title: "Portfolio Website",
+    description:
+      "A demo website for a personal portfolio.",
+    tech_stack: ["HTML", "CSS"],
+    github_url: "https://github.com/jiithin",
+    demo_url: "https://portfolio-demomearndec.netlify.app/",
+  },
+  {
+    img: "/luiv.png",
+    title: "Louis Vuitton Website",
+    description:
+      "A clone website of Louis Vuitton using html and css.",
+    tech_stack: ["Bootstrap", "CSS", "HTML"],
+    github_url: "https://github.com/jiithin",
+    demo_url: "https://lv-crunchybroast-d1d1nt.netlify.app/",
+  },
+  {
+    img: "/headphone.png",
+    title: "Headphones Website",
+    description:
+      "A website to buy products online.",
+    tech_stack: ["Bootstrap", "CSS", "HTML"],
+    github_url: "https://github.com/jiithin",
+    demo_url: "https://headphones-site-mearndec.netlify.app/",
+  },
+    {
+    img: "/recipe.png",
+    title: "Recipe Finder",
+    description:
+      "A dynamic website for finding recipes with functinality to add or delete a recipe.",
+    tech_stack: ["ReactJS", "Axios", "NodeJS", "MongoDB"],
+    github_url: "https://github.com/jiithin/recipe-frontend-react",
+    demo_url: "https://recipe-frontend-react.vercel.app/",
+  },
+  {
+    img: "/f1.png",
+    title: "Formula One Website",
+    description:
+      "A Formula One website for the F1 fans including  news, results, driver standings and more.",
+    tech_stack: ["Bootstrap", "CSS", "HTML"],
+    github_url: "https://github.com/jiithin",
+    demo_url: "https://bootstrap-website-task-mearndec.netlify.app/",
+  },
