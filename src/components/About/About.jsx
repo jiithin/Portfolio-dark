@@ -31,7 +31,7 @@ function About() {
           <div className="AboutBio">
             <Fade >
               <p>
-                Hello! I'm <strong>Jithin</strong>. And I'm from the enchanting lands of Kerala, India. Armed with a bachelor's degree in Mechanical Engineering from Kannur University. However, my heart was drawn to the captivating world of information technology, fueled by an insatiable curiosity about the inner workings of modern technologies. Driven by this passion, I embarked on a journey of self-directed learning, delving into the intricacies of web development and JavaScript.
+                Hello! I'm <strong>Jithin</strong>. And I'm a MEA(R)N stack developer, having honed my skills through dedicated practice and hands-on experience. My passion for technology drives me to continuously learn and explore innovative solutions, ensuring that I deliver seamless user experiences and impactful software projects.
               </p>
             </Fade>
 
@@ -41,10 +41,10 @@ function About() {
 
             <Fade >
               <p>
-              Today, I stand as a proficient MEA(R)N stack developer, having honed my skills through dedicated practice and hands-on experience. My current endeavor finds me serving as an intern at Luminar Technolab, where I am afforded the opportunity to apply my expertise and contribute to innovative projects. Each day presents new challenges and opportunities for growth, and I embrace them eagerly as I continue to evolve and thrive in the dynamic landscape of technology.
+              My expertise lies in building dynamic and responsive web applications that provide seamless user experiences. I am well-versed in React, Node.js, Express.js, and MongoDB, with a strong emphasis on creating efficient, scalable, and maintainable code. I am eager to explore innovative solutions and contribute to impactful software projects.
               </p>
               <div className="tagline2">
-                I have become confident using the following technologies:
+              I am proficient in the following technologies :
               </div>
             </Fade>
             

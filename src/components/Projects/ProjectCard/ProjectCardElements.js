@@ -62,7 +62,7 @@ export const BtnGroup = styled.div`
   align-items: center;
 // can delete everything below and button still function
 .btn {
-  --primary-color: #9eb9c4;
+  --primary-color: #5c718a;
   --secondary-color: #012c3d;
   --hover-color: #a5c6d4;
   --arrow-width: 10px;
