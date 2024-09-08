@@ -27,15 +27,7 @@ export const ProjectList = [
     github_url: "https://github.com/jiithin/media-player",
     demo_url: "https://media-player-rosy.vercel.app/",
   },
-  {
-    img: "/recipe.png",
-    title: "Recipe Finder",
-    description:
-      "A dynamic website for finding recipes with functinality to add or delete a recipe.",
-    tech_stack: ["ReactJS", "Axios", "NodeJS", "MongoDB"],
-    github_url: "https://github.com/jiithin/recipe-frontend-react",
-    demo_url: "https://recipe-frontend-react.vercel.app/",
-  },
+
 ];
 
 // --------------------------------------- Skills
