@@ -56,19 +56,24 @@ export const CardRight = styled.div`
   }
 `;
 
+// little trickry to adjust colors so made it a variable first
 export const BtnGroup = styled.div`
   height: 70px;
   display: flex;
   align-items: center;
 // can delete everything below and button still function
 .btn {
-  --primary-color: #5c718a;
-  --secondary-color: #012c3d;
+  --primary-color: #434f5e;
+  --secondary-color: #002635;
   --hover-color: #a5c6d4;
+  
+  --btnon-color: #002635;
+  --btnoff-color: #9FB0C8;
+
   --arrow-width: 10px;
   --arrow-stroke: 2px;
 
-  color: var(--secondary-color);
+  color: var(--btnoff-color);
   background: var(--primary-color);
   display: flex;
   transition: 0.2s background;
@@ -95,7 +100,7 @@ export const BtnGroup = styled.div`
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: solid var(--secondary-color);
+  border: solid var(--btnoff-color);
   border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
   display: inline-block;
   top: -3px;
@@ -107,14 +112,28 @@ export const BtnGroup = styled.div`
 
 .btn:hover {
   background-color: var(--hover-color);
+  color: var(--btnon-color);
 }
 
 .btn:hover .arrow {
-  background: var(--secondary-color);
+  background: var(--btnon-color);
+  
+  
 }
 
 .btn:hover .arrow:before {
-  right: 0;
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--btnon-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 0px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+  
 }
   
 `;

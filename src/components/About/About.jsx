@@ -22,7 +22,7 @@ function About() {
         <div className="SectionTitle">About Me</div>
         </Fade>
         <div className="BigCard">
-        <Fade direction='up' triggerOnce={true}>
+        <Fade triggerOnce={true}>
           <Image
             src="/me.png"
             alt="my-photo"
