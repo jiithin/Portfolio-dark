@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
 import { Fade, Zoom } from "react-awesome-reveal";
+import { Tooltip } from "@mui/material";
 
 const SocialContainer = styled.div`
   position: fixed;
@@ -62,7 +63,9 @@ const SocialContainer = styled.div`
     }
   }
 `;
+
 function FixSocialIcon() {
+  const [open, setOpen] = useState(false);
   return (
     <SocialContainer>
       <Fade direction="up" triggerOnce={true}>
@@ -77,13 +80,14 @@ function FixSocialIcon() {
             </a>
           </li>
           <li className="item">
+          <Tooltip title='More projects' placement='bottom' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
             <a id="github"
               href="https://github.com/jiithin"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub/>
-            </a>
+            </a></Tooltip>
           </li>
         </ul>
       </Fade>
