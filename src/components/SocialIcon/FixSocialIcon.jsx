@@ -80,7 +80,7 @@ function FixSocialIcon() {
             </a>
           </li>
           <li className="item">
-          <Tooltip title='More projects' placement='bottom' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
+          <Tooltip title='More projects' placement='bottom' className="tooltip" open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
             <a id="github"
               href="https://github.com/jiithin"
               target="_blank"
