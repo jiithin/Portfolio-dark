@@ -28,8 +28,8 @@ function Education() {
             <Fade cascade damping={0.1}>
               <h5 style={{fontSize:"20px",color:"#d9e7eb"}}>Bachelors Degree</h5>
               <strong >Mechanical Engineering</strong>.
+              {/* <p>SNGCET Payyannur</p> */}
             <p>
-              SNGCET Payyannur , 
                Kannur University.
             </p>
             <small>2014-2018</small>
